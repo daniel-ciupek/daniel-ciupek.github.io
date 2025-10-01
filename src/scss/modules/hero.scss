@@ -1,5 +1,4 @@
 .hero {
-    text-align: center;
   padding: 74px 16px 88px;
   &__contact {
     border-radius: 64px;
@@ -11,6 +10,9 @@
     font-size: 20px;
     line-height: 40px;
     text-decoration: none;
+  }
+  &__description {
+    text-align: center;
   }
   &__paragraph {
     font-weight: 300;

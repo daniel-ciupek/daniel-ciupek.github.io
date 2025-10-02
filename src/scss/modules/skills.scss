@@ -39,19 +39,17 @@
       background-image: url("../assets/img/small-tick-blue.svg");
     }
   }
-  &--dot{
-  .skills-list__item:before {
-    width: 2px;
-    height: 2px;
-    border-radius: 50%;
-    top: 10px;
-    left: 5px;
-    background: $lighterBlue;
-
+  &--dot {
+    .skills-list__item:before {
+      width: 2px;
+      height: 2px;
+      border-radius: 50%;
+      top: 10px;
+      left: 5px;
+      background: $lighterBlue;
+    }
   }
 }
-}
-
 
 .skills-section {
   margin-top: 64px;

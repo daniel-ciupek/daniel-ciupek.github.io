@@ -4,12 +4,11 @@
     max-width: 768px;
     margin: 0 auto;
   }
-      @media (min-width: $desktop) {
-   max-width: 100%; 
-   margin-bottom: 176px;
+  @media (min-width: $desktop) {
+    max-width: 100%;
+    margin-bottom: 60px;
   }
 
- 
   &__bubble {
     position: absolute;
     left: calc(50% + 90px);
@@ -33,23 +32,23 @@
       max-width: 786px;
       margin: 0 auto;
       position: relative;
-      &::before, &::after {
+      &::before,
+      &::after {
         width: 82.94px;
         height: 254.88px;
-        content: '';
+        content: "";
         display: block;
         position: absolute;
         top: 0;
       }
       &::before {
-        background: url('../assets/img/hero-left.svg');
+        background: url("../assets/img/hero-left.svg");
         right: 100%;
       }
-       &::after {
-        background: url('../assets/img/hero-right.svg');
+      &::after {
+        background: url("../assets/img/hero-right.svg");
         left: 100%;
       }
-      
     }
   }
   &__paragraph {

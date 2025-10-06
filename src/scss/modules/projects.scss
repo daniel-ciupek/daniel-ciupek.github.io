@@ -55,8 +55,8 @@
   &__content {
     padding: 24px 16px;
     @media (min-width: $desktop) {
-   padding: 18px 48px 58px;
-  }
+      padding: 18px 48px 58px;
+    }
   }
   &__grid {
     display: grid;
@@ -64,12 +64,11 @@
     column-gap: 8px;
     margin: 0 0 8px 0;
     @media (min-width: $desktop) {
-    grid-template-columns: 116px 1fr;
-    &--description {
-      margin-bottom: 24px;
+      grid-template-columns: 116px 1fr;
+      &--description {
+        margin-bottom: 24px;
+      }
     }
-  }
-
   }
   &__label {
     display: block;
@@ -87,9 +86,9 @@
     color: #fff;
     margin-top: 24px;
     @media (min-width: $desktop) {
-    font-size: 16px;
-    line-height: 24px;
-  }
+      font-size: 16px;
+      line-height: 24px;
+    }
   }
   &__window {
     height: 40px;

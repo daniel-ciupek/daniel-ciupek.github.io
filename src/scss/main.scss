@@ -3,6 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
 @import "_variables";
 @import "modules/socials.scss";
+@import "modules/hand.scss";
 @import "modules/projects.scss";
 @import "modules/contact.scss";
 @import "modules/skills.scss";
@@ -10,6 +11,7 @@
 
 html {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 *,
 *:before *:after {
